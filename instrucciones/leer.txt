@@ -1,0 +1,62 @@
+Seguir las instrucciones:
+
+Paso 1
+
+crear el esquema en MySql segui la imagen db_mysql.png
+
+DROP SCHEMA IF EXISTS `database_corpciti` ;
+CREATE SCHEMA `database_corpciti`;
+
+
+correr los siguientes comandos en Django el terminal de pycharm
+
+Paso Intermedio:
+Ejecutar el siguiente comando en la terminal de Django como la imagen freeze.png
+pip install -r requirements.txt
+
+
+Paso 2
+python manage.py makemigrations
+
+como veran en la imagen de Django1.png veran que sale un numero como 0005 este numero cambiara y se debe tener en cuenta para el siguiente comando
+
+Paso 3
+python manage.py sqlmigrate serviciosCorpciti 0005 
+
+Luego ejecutar el siguiente comando 
+
+Paso 5
+python manage.py migrate
+
+Para crear el usuario para acceder al panel admin de Django se debe crear el usuario con el comando
+
+Paso 6
+python manage.py createsuperuser
+
+Una vez creado el usuario admin deben correr el siguiente comando, con ello se ejecuta 
+
+Paso 7
+python manage.py runserver 127.0.0.1:8000
+
+
+Luego abrir el siguiente link en el navegado: 
+
+Paso 8
+http://127.0.0.1:8000/admin/
+
+una vez en el link deberan acceder con el usuario creado en el paso 6 
+
+AL acceder deberan tener un panel como el de la imagen admin.png
+
+Paso 9
+Una vez aquello deberan descargar el plugin Moesif Origin & CORS Changer de google chrome 
+https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related
+
+Deberan ponerlo en On como la imagen cors.png
+
+Una vez aquello deberan ejecutar el proyecto de la Interfaz siguiendo los mismos pasos de la vez pasada
+
+npm install 
+
+npm start
+

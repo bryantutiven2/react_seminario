@@ -1,0 +1,122 @@
+
+{
+    "Header": {
+
+        "title": "CORPCITI cursos y seminarios",
+        "paragraph": "Bienvenido a la página donde encontrará disponibles seminarios de distintos temas académicos, con exposiciones, talleres. \n Para ver los temás de click en Ver Más o Ver Seminarios!"
+
+    },
+    "About": {
+        "paragraph": "CORPCITI grupo encargado de brindar los seminarios y cursos, estos son programas que se ofrece a a empresarios, ciudadano y estudiantes dentro y fuera del país. Se busca  profundizar en áreas específicas para adquirir y desarrollar las herramientas necesarias para la gestión óptima de las mismas",
+        "Why": [
+            "Aprendizaje de calidad",
+            "Variedad de contenido",
+            "Precios accesibles",
+            "Comunicación efectiva"
+        ],
+        "Why2": [
+            "Talleres brindados",
+            "Asesorías",
+            "Expositores profesionales",
+            "Genera experiencia"
+        ]
+    },
+    "Services": [{
+            "icon": "img/seminarios/tarjeta1.png",
+            "name": "Seminario Matematicas",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare.",
+            "cupos": "50"
+        },
+        {
+            "icon": "img/seminarios/tarjeta2.png",
+            "name": "Semianrio DAW",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare.",
+            "cupos": "32"
+        },
+        {
+            "icon": "img/seminarios/tarjeta3.png",
+            "name": "Seminario Lenguajes de Programacion",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare.",
+            "cupos": "15"
+        },
+        {
+            "icon": "img/seminarios/tarjeta4.png",
+            "name": "Seminario Estructura de datos",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare.",
+            "cupos": "65"
+        },
+        {
+            "icon": "img/seminarios/tarjeta5.png",
+            "name": "Seminario Finanzas",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare.",
+            "cupos": "24"
+        },
+        {
+            "icon": "img/seminarios/tarjeta6.png",
+            "name": "Seminario Seguridad",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare.",
+            "cupos": "43"
+        }
+
+
+    ],
+    "Team": [{
+            "img": "img/team/men.png",
+            "name": "Vicente",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/women.png",
+            "name": "Evelyn",
+            "job": "Cofundadora"
+        }, {
+            "img": "img/team/men.png",
+            "name": "Kevin",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/men.png",
+            "name": "Angel",
+            "job": "Web Developer"
+        },
+        {
+            "img": "img/team/men.png",
+            "name": "Santiago",
+            "job": "Devops Engineer"
+        },
+        {
+            "img": "img/team/men.png",
+            "name": "Jonathan",
+            "job": "Full Stack Developer"
+        }
+    ],
+    "Contact": {
+        "address": "Guayaqui, Centro Norte   ",
+        "phone": "04 2345678 +593 987654321",
+        "email": "corpciti@company.com",
+        "facebook": "https://www.facebook.com/CORPCITI.com/",
+        "twitter": "https://www.twitter.com/CORPCITI.com/",
+        "youtube": "https://www.youtube.com/CORPCITI.com/"
+    },
+    "Features": [{
+            "icon": "../public/temas/libro.png",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "../public/temas/libro.png",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "../public/temas/libro.png",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        },
+        {
+            "icon": "../public/temas/libro.png",
+            "title": "Lorem ipsum",
+            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        }
+    ]
+}
