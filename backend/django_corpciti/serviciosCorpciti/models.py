@@ -44,3 +44,5 @@ class Factura(models.Model):
     id_pago = models.ForeignKey(Pago, on_delete=models.PROTECT, null=True, blank=True)
     id_cliente = models.ForeignKey(Asesor, on_delete=models.PROTECT, null=True, blank=True)
     id_congreso_seminario = models.ForeignKey(Congreso_seminario, on_delete=models.PROTECT, null=True, blank=True)
+
+
